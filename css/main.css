@@ -252,7 +252,7 @@ header .menu .menu_btn {
     font-size: 17px;
     background-color: #c8ae58;
     border-radius: 30px;
-    margin: 30px 110px;
+    margin: 30px 130px;
     font-weight: bold;
     border: 0;
     cursor: pointer;
@@ -499,7 +499,7 @@ header .menu .menu_btn {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .s6 ul > li  {
     float: left;
@@ -540,13 +540,14 @@ header .menu .menu_btn {
 }
 .s7 .news h3 {
     color: #fff;
+    font-size: 16px;
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 .s7 .news span {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -559,7 +560,7 @@ header .menu .menu_btn {
 }
 .s7 .event h3 {
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     margin-top: 10px;
 }
@@ -572,7 +573,7 @@ header .menu .menu_btn {
 }
 .s7 .fran h3 {
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     margin-top: 10px;
 }
