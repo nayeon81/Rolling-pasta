@@ -253,7 +253,7 @@ header .menu .menu_btn {
     background-color: #c8ae58;
     border-radius: 30px;
     /* margin: 30px 80px 80px 130px; */
-    margin: 50px 100px;
+    margin: 20px 100px;
     font-weight: bold;
     border: 0;
     cursor: pointer;
@@ -607,7 +607,7 @@ footer .info ul li {
     border-right: 1px solid #666;
 }
 footer .info ul li a {
-    font-size: 2.7vw;
+    font-size: 2.6vw;
     color: #ddd;
     padding: 0 3vw;
 }
@@ -621,4 +621,5 @@ footer address {
     margin-top: 3vh;
     line-height: 4vw;
     text-align: center;
+    white-space: nowrap;
 }
