@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Rolling Pasta</title>
+    <!-- fullpage.css 연결 -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- 사용자 정의 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js 연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="js/swiper-bundle.js"></script> -->
+    <!-- 사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo3.png" alt="로고">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="ask"><a href="#">가맹문의</a></div>
+            <div class="menu_btn">
+                <a href="#">
+                    <div id="nav-icon4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            <!-- 내비게이션(GNB-Global Navigation Bar) -->
+            <div class="gnb">
+                <div class="top_menu">
+                    <div class="search">
+                        <div class="search_input">
+                            <input type="text" placeholder="search" name="search" id="search">
+                            </div>
+                            <div class="search_btn">
+                                <a href="#">
+                                    <img src="img/menu_icon2.png" alt="검색버튼">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lang">
+                            <a href="#">KOREAN</a>
+                            <a href="#">ENGLISH</a>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Rolling Pasta</a>
+                                <ul class="sub">
+                                    <li><a href="#">(주)더본코리아</a></li>
+                                    <li><a href="#">회사 안내</a></li>
+                                    <li><a href="#">CEO 인사말</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Menu</a>
+                                <ul class="sub">
+                                    <li><a href="#">파스타</a></li>
+                                    <li><a href="#">피자&샐러드</a></li>
+                                    <li><a href="#">도리아&필라프</a></li>
+                                    <li><a href="#">음료</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Store</a>
+                                <ul class="sub">
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">딜리버리 서비스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Franchise</a>
+                                <ul class="sub">
+                                    <li><a href="#">창업안내</a></li>
+                                    <li><a href="#">창업설명회</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">CS center</a>
+                                <ul class="sub">
+                                    <li><a href="#">고객의 소리</a></li>
+                                    <li><a href="#">이용안내</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+   <div id="fullpage">
+       <section class="section s1">
+           <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main1">
+                        <h1>기존에 없던 새로운 파스타</h1>
+                        <p>Rolling pasta</p>
+                        <h2>가격의 거품을 빼고 정직함을 담았습니다</h2>
+                        <button>브랜드 스토리</button>
+                    </div>
+                    <div class="swiper-slide main2">
+                        <h1>맛부터 다른</h1>
+                        <p>Only at the<br>Rolling Pasta</p>
+                        <h2>정직한 재료와 정확한 레시피로<br>파스타의 새로운 방향을 제시합니다.</h2>
+                    </div>
+                    <div class="swiper-slide main3">
+                        <h1>최상의 맛</h1>
+                        <p>좋은 식재료와<br>조리법</p>
+                        <h2>모든 면에서 정성을 담으면서,<br>합리적인 가격을 제시하는 것</h2>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+       </section>
+       <section class="section s2">
+           <button>SINCE 2018</button>
+           <h2>이탈리안 파스타의<br>캐주얼한 해석</h2>
+           <!-- 숫자 올라가는 애니메이션 -->
+           <div class="addNumber">
+                <span></span>
+           </div>
+           <p>누적 판매량</p>
+       </section>
+       <section class="section s3">
+           <h2>쉐프의<br>트렌디한 메뉴</h2>
+           <button>전체메뉴 보기</button>
+           <p>매장별로 판매 메뉴는 상이할 수 있습니다.</p>
+        </section>
+        <section class="section s4">
+            <h1>ENJOY SERVICE</h1>
+            <p>당신의 모든 순간<br>롤링파스타</p>
+            <div class="s4_box">
+                <div class="s4_left">
+                    <a href="#">
+                        <div class="s4_left_ani">
+                            <img src="img/icon1.png" alt="선물">
+                        </div>
+                    </a>
+                    <p>카카오톡 <span>선물하기</span></p>
+                </div>
+                <div class="s4_right">
+                    <a href="#">
+                        <div class="s4_right_ani">
+                            <img src="img/icon2.png" alt="배달">
+                        </div>
+                    </a>
+                    <p><span>딜리버리 </span>매장</p>
+                </div>
+            </div>
+        </section>
+        <section class="section s5">
+            <h1>CLASSIC SENSIBILITY</h1>
+            <p>분위기 있는 공간</p>
+            <h2>이탈리안 파스타와 함께 유럽거리 노천카페의<br>분위기를 담은 감각적인 공간을 선사합니다.</h2>
+            <div class="icon">
+                <img src="img/icon3.png" alt="하트">
+            </div>
+        </section>
+        <section class="section s6">
+            <h1>Rolling pasta<br>SNS</h1>
+            <div class="img">
+                <ul class="img_list">
+                    <li><a href="#">
+                        <img src="img/6-1.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-2.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-3.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-4.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-5.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-6.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-7.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-8.jpg" alt="9개">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/6-9.png" alt="9개">
+                    </a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <div class="sns1">
+                    <a href="#"><img src="img/sns3.png" alt="유튜브"></a>
+                </div>
+                <div class="sns2">
+                    <a href="#"><img src="img/sns1.png" alt="인스타그램"></a>
+                </div>
+                <div class="sns3">
+                    <a href="#"><img src="img/sns2.png" alt="블로그"></a>
+                </div>
+            </div>
+        </section>
+        <section class="section s7">
+            <div class="news">
+                <button>NEWS</button>
+                <h3>신선한 채소 위에 다양한 토핑을 더한  건강한 한 끼<br>‘신선 샐러드 3종’을 출시!</h3>
+                <span>2022.05.26</span>
+            </div>
+            <div class="event">
+                <button>EVENT</button>
+                <h3>롤링파스타<br>배달 꿀조합을<br>보여줘! (~06/20)</h3>
+                <div class="arrow">
+                    <a href="#">
+                        <img src="img/icon5.png" alt="화살표">
+                    </a>
+                </div>
+            </div>
+            <div class="fran">
+                <button>FRANCHISE</button>
+                <h3>롤링파스타<br>가맹문의<br>바로가기</h3>
+                <div class="arrow">
+                    <a href="#">
+                        <img src="img/icon5.png" alt="화살표">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="info">
+                <ul>
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">마일리지 조회</a></li>
+                    <li><a href="#">상품권 구매</a></li>
+                    <li><a href="#">인트라넷</a></li>
+                </ul>
+            </div>
+            <address>
+                <br>
+                사업자등록번호 : 211-86-00870<br>
+                가맹상담전화 : 02-549-3864 고객센터 : 1544-2360<br>
+                COPYRIGHTⓒ 2019 THEBORN KOREA INC. ALL RIGHTS RESERVED
+            </address>
+        </footer>
+   </div>
+</body>
+</html>
