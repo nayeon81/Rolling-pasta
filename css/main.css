@@ -55,7 +55,7 @@ header .menu .menu_btn {
 #fp-nav ul li:last-of-type { display: none;}
 
 #fp-nav ul li a span {
-    background: #ddd;
+    background-color: #c8ae58;
     width: 8px;
     height: 8px;
     opacity: 0.8;
@@ -63,10 +63,11 @@ header .menu .menu_btn {
 }
 #fp-nav ul li a span, #fp-nav ul li:hover a.active span {
     background: transparent;
-    border: 2px solid #dbc253;
+    /* border: 2px solid  #dbc253; */
+    background-color: #c8ae58;
     width: 8px;
     opacity: 1;
-    margin: -4px 0 0 -px;
+    margin: -4px 0 0 -4px;
 }
 /* 햄버거 메뉴 버튼 */
 #nav-icon4 {
